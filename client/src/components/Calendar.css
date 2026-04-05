@@ -480,6 +480,10 @@
 	height: 60px;
 	border-bottom: 1px solid var(--border-color);
 	flex-shrink: 0;
+	position: sticky;
+	top: 0;
+	z-index: 1450;
+	background-color: var(--bg-secondary);
 }
 
 .grid-spacers {
@@ -603,10 +607,13 @@
 
 .multi-day-events-bar {
 	display: flex;
-	background-color: rgba(var(--accent-rgb), 0.04);
+	background-color: var(--bg-secondary);
 	border-bottom: 1px solid var(--border-color);
 	padding: 8px 0;
 	flex-shrink: 0;
+	position: sticky;
+	top: 60px;
+	z-index: 1449;
 }
 
 .multi-day-col {
